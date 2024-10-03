@@ -13,7 +13,8 @@ They deal with communication between objects and how responsibilities are distri
 ## Creational Patterns
 
 **1. Abstract Factory**
-It's a creational design pattern, which solves the problem of creating entire product families without specifying their concrete classes. It is known as the "factory of factories". What are the benefits of this pattern? It relies on abstract interfaces instead of concrete classes (they are isolated). The concrete factory only appears once in the application, where it's instantiated and, in case we need to change the factory, only the concrete class is updated (no more changes to be done).
+This pattern focuses on creating entire product families without specifying their concrete classes. It is known as the "factory of factories". What are the benefits of this pattern? It relies on abstract interfaces instead of concrete classes (they are isolated). The concrete factory only appears once in the application, where it's instantiated and, in case we need to change the factory, only the concrete class is updated (no more changes to be done).
 
-
+**2. Builder**
+This pattern focuses on the flexible creation of an object. It prevents the classes from having complex constructors by setting multiple optional parameters in a flexible, sequential and readable. These two latter characteristics are related because a builder allows to manually set the actions in order (chaining) so that the source code can be easily read and understood. Additionally, before creating and returning an object, validations can be done to ensure that the parameters are valid. Finally, immutability is also accomplished (the domain class has no setter methods and, once the values are assigned, they cannot be changed.
 
