@@ -1,4 +1,4 @@
-package com.warlearning.builder.application;
+package com.warlearning.builder;
 
 import com.warlearning.builder.director.CloudSolutionDirector;
 import com.warlearning.builder.pojo.DynamicWebSiteCloudSolution;
